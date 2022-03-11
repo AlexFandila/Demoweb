@@ -11,4 +11,5 @@ public interface EmpleadoService {
 	public List<Empleado> listarFiltroNombre(String cad);
 	public List<Empleado> listarConJPA(Integer pID, String contiene);
 	public List<Empleado> listarFiltroNombreEs(String cad);
+	public void inserta(Empleado emp);
 }
